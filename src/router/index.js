@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router';
 import FeedbackView from '../components/feedback.vue'
 import NewsView from '../components/news.vue'
 import MainView from '../components/main.vue'
@@ -24,9 +24,9 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes
-})
+  history: createWebHashHistory(), 
+  routes,
+});
 
 // Навигационный гард для проверки авторизации
 router.beforeEach((to, from, next) => {
