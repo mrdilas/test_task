@@ -64,19 +64,6 @@
             </div>
         </div>
 
-        <div class="card">
-            <div class="image-container">
-                <img class="news-image" src="../assets/admin.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="head-container">
-                    <h3>Админ петух</h3>
-                    <p>19.04.2025</p>
-                </div>
-                <p>Админ петух и этим все сказано...
-                </p>
-            </div>
-        </div>
 
         <div class="card">
             <div class="image-container">
